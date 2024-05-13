@@ -1,7 +1,7 @@
 
 <!-- Header start -->
 <header id="header" class="header-one">
-    <div class="bg-white">
+    {{-- <div class="bg-white">
       <div class="container">
         <div class="logo-area">
             <div class="row align-items-center">
@@ -50,7 +50,7 @@
     
         </div><!-- Row end -->
       </div><!-- Container end -->
-    </div>
+    </div> --}}
   
     <div class="site-navigation">
       <div class="container">
@@ -68,7 +68,7 @@
   
                         <li class="nav-item {{ Request::is('about-us') ? 'active' : '' }} "><a class="nav-link" href="{{ route('about-us') }}">About Us</a></li>
                 
-                        <li class="nav-item {{ Request::is('saloons') ? 'active' : '' }} "><a class="nav-link" href="{{ route('saloons') }}">Saloons</a></li>
+                        <li class="nav-item {{ Request::is('halls') ? 'active' : '' }} "><a class="nav-link" href="{{ route('saloons') }}">Halls</a></li>
                 
                         <li class="nav-item {{ Request::is('contact') ? 'active' : '' }} "><a class="nav-link" href="{{ route('contact.index') }}">Contact</a></li>
 

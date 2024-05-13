@@ -64,19 +64,9 @@ class SaloonSeeder extends Seeder
                 'price'=>'3.99'
             ],
             [
-                'material_id'=>'8',
+                'material_id'=>'3',
                 'saloon_id'=>'1',
                 'price'=>'9.99'
-            ],
-            [
-                'material_id'=>'11',
-                'saloon_id'=>'1',
-                'price'=>'14.99'
-            ],
-            [
-                'material_id'=>'12',
-                'saloon_id'=>'1',
-                'price'=>'4.99'
             ]
         ]);
     }

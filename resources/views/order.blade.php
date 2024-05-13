@@ -10,15 +10,12 @@
     <div>
         <div class="row gap-3">
           <div class="form-group col-md-4">
-            <label for="phone" class="text-warning h4">Phone Number</label>
-            <input type="tel" class="form-control" id="phone" name="u_phone" placeholder="(+1) 954-523-587">
+            <label for="s_provider" class="text-warning h4">Name</label>
+            <input type="text" class="form-control" id="s_provider" name="s_provider">
           </div>
           <div class="form-group col-md-4">
-            <label for="s_provider" class="text-warning h4">Service Provider</label>
-            <select class="form-control" name="s_provider" id="s_provider">
-              <option value="male">Male</option>
-              <option value="female">Female</option>
-            </select>
+            <label for="phone" class="text-warning h4">Phone Number</label>
+            <input type="tel" class="form-control" id="phone" name="u_phone" placeholder="(+1) 954-523-587">
           </div>
           <div class="form-group col-md-4">
                <label for="date" class="text-warning h4">Date & Time</label>
@@ -55,7 +52,7 @@
         <div class="form-check">
             <input class="form-check-input" type="radio" name="payment" id="cash" value="cash" checked>
             <label class="form-check-label" for="cash">
-              Cash In Saloon
+              Cash In Hall
             </label>
           </div>
           <div class="form-check">

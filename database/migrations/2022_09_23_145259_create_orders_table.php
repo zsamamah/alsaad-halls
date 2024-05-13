@@ -22,7 +22,7 @@ return new class extends Migration
             $table->unsignedBigInteger('saloon_owner');
             $table->foreign('saloon_owner')->references('id')->on('users')->onDelete('cascade');
             $table->string('u_phone');
-            $table->enum('s_provider',['male','female']);
+            $table->string('s_provider');
             $table->string('date');
             $table->text('notes')->nullable();
             $table->enum('paid',['yes','no']);

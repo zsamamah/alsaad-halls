@@ -9,7 +9,6 @@ use App\Http\Controllers\SaloonController;
 use App\Http\Controllers\SubscribeController;
 use App\Http\Controllers\UserProfileController;
 use App\Http\Controllers\VisaController;
-use App\Models\Order;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
@@ -36,7 +35,7 @@ Route::get('/contact-done',[ContactController::class,'done'])->name('contact-don
 Route::post('/subscribe',[SubscribeController::class,'store'])->name('subscribe');
 Route::get('/subscribe-done',[SubscribeController::class,'done'])->name('subscribe-done');
 
-Route::get('/saloons',[SaloonController::class,'show_all'])->name('saloons');
+Route::get('/halls',[SaloonController::class,'show_all'])->name('saloons');
 Route::get('/saloons/{saloon}',[SaloonController::class,'show'])->name('single-saloon');
 
 Route::group(['middleware'=>['auth','isProvider']],function(){

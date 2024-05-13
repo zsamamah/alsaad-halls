@@ -17,41 +17,20 @@ class MaterialSeeder extends Seeder
   {
     DB::table('materials')->insert([
       [
-        'm_name' => 'Hair'
+        'm_name' => 'Video'
       ],
       [
-        'm_name' => 'Hair dye'
+        'm_name' => 'Images'
       ],
       [
-        'm_name' => 'Hairstyle'
+        'm_name' => 'Cake'
       ],
       [
-        'm_name' => 'Hair dryer'
+        'm_name' => 'Drinks'
       ],
       [
-        'm_name' => 'Curly Hair'
-      ],
-      [
-        'm_name' => 'Treatment'
-      ],
-      [
-        'm_name' => 'Keratin'
-      ],
-      [
-        'm_name' => 'Protein'
-      ],
-      [
-        'm_name' => 'Face Cleaning'
-      ],
-      [
-        'm_name' => 'Makeup'
-      ],
-      [
-        'm_name' => 'Body'
-      ],
-      [
-        'm_name' => 'Nails'
-      ],
+        'm_name' => 'Inetrior Design'
+      ]
     ]);
   }
 }
