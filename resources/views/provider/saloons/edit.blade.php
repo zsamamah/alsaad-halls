@@ -11,7 +11,7 @@
             @csrf
             @method('PUT')
             <div class="form-group">
-              <label for="name">Saloon Name</label>
+              <label for="name">Hall Name</label>
               <input type="text" id="name" class="btn ms-2 text-start border d-block" name="name" aria-describedby="emailHelp" placeholder="Beauty Care" value="{{$saloon->name}}" required>
             </div>
             <div class="form-group">

@@ -9,7 +9,7 @@
       <div class="row">
         <div class="col-12">
           <h2 class="page-header">
-            <i class="fas fa-globe"></i> Tajmelna Co.
+            <i class="fas fa-globe"></i> AlSaadeh Co.
             <small class="float-right">Date: {{date('Y-m-d')}}</small>
           </h2>
         </div>
@@ -20,10 +20,10 @@
         <div class="col-sm-4 invoice-col">
           From
           <address>
-            <strong>Tajmelna Co.</strong><br>
+            <strong>AlSaadeh Co.</strong><br>
             {{$saloon['location']}} <br>
             Phone: {{$order['u_phone']}}<br>
-            Email: contact@tajmelna.com
+            Email: contact@AlSaadeh.com
           </address>
         </div>
         <!-- /.col -->

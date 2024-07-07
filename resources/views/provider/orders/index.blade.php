@@ -17,7 +17,7 @@
                     <tr>
                         <th>ID</th>
                         <th>Name</th>
-                        <th>Saloon</th>
+                        <th>Hall</th>
                         <th>Date</th>
                         <th>Phone</th>
                         <th>Paid</th>

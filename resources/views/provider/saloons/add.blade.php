@@ -10,7 +10,7 @@
       <form method="POST" action="{{ route('save-saloon') }}">
         @csrf
         <div class="form-group">
-          <label for="name">Saloon Name</label>
+          <label for="name">Hall Name</label>
           <input type="text" id="name" class="btn ms-2 text-start border d-block" name="name" aria-describedby="emailHelp" placeholder="Beauty Care" required>
         </div>
         <div class="form-group">
@@ -19,7 +19,7 @@
         </div>
         <div class="form-group">
           <label for="location">Location</label>
-          <input type="text" name="location" class="btn ms-2 text-start border d-block" id="location" placeholder="Zarqa, Batrawi" required>
+          <input type="text" name="location" class="btn ms-2 text-start border d-block" id="location" placeholder="Nablus" required>
         </div>
         <div class="form-group">
           <label for="profile_image">Profile Image (Link)</label>

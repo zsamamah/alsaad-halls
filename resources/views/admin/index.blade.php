@@ -17,7 +17,7 @@
         <a href="{{ url('all_saloons') }}">
             <div class="card">
                 <div class="card-head">
-                    <h4>All Saloons</h4>
+                    <h4>All Halls</h4>
                     <p>{{$saloons->count()}}</p>
                 </div>
             </div>

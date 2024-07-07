@@ -8,8 +8,8 @@
 @endif
 <div class="card">
     <div class="card-header">
-        <h1>Saloons Page</h1>
-        <a href="{{ route('create-saloon') }}" class="btn btn-info">Add New Saloon!</a>
+        <h1>Halls Page</h1>
+        <a href="{{ route('create-saloon') }}" class="btn btn-info">Add New Hall!</a>
         <hr>
     </div>
     <div class="card-body">
@@ -17,7 +17,7 @@
             <thead>
                 <tr>
                     <th>ID</th>
-                    <th>Saloon</th>
+                    <th>Hall</th>
                     <th>Action</th>
                 </tr>
             </thead>

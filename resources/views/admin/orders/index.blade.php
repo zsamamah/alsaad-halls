@@ -16,7 +16,7 @@
                 <thead>
                     <tr>
                         <th>ID</th>
-                        <th>Saloon Name</th>
+                        <th>Hall Name</th>
                         <th>User Name</th>
                         <th>Date</th>
                         <th>Phone</th>

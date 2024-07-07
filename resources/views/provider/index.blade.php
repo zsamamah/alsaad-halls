@@ -7,7 +7,7 @@
         <a href="{{ route('my-saloons') }}">
             <div class="card">
                 <div class="card-head">
-                    <h4>My Saloons</h4>
+                    <h4>My Halls</h4>
                     <p>{{$saloons->count()}}</p>
                 </div>
             </div>
